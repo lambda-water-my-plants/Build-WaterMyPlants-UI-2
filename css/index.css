@@ -146,18 +146,18 @@ h5 {
   font-family: 'Yeseva One', cursive;
   color: #233D4D;
 }
-h1 {
+#pageHeader {
   font-size: 4rem;
   padding: 20px;
 }
-@media (min-width: 992px) {
-  h1 {
-    font-size: 5rem;
+@media (min-width: 768px) {
+  #pageHeader {
+    font-size: 6rem;
   }
 }
 @media (min-width: 992px) {
-  h1 {
-    font-size: 7rem;
+  #pageHeader {
+    font-size: 8rem;
   }
 }
 h2 {
@@ -204,7 +204,8 @@ button {
   opacity: 0.25;
   margin-top: 10px;
 }
-.headerNav h1 {
+.headerNav #pageHeader {
+  font-family: "Yeseva One", "cursive";
   opacity: 1;
   position: absolute;
   top: 10%;
@@ -215,40 +216,26 @@ button {
   justify-content: center;
   align-items: center;
 }
-.headerNav .sign-in-button {
-  width: 100%;
-  background-color: #233D4D;
-  padding: 10px 0;
-}
-.headerNav .sign-in-button a {
-  background-color: #233D4D;
-  color: #FCF9F4;
-  font-family: 'Yeseva One', cursive;
-  font-size: 3rem;
-  height: 40px;
-  border: 0.5px solid #FCF9F4;
-  cursor: pointer;
+.headerNav #tagline {
+  margin: 3px 0;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
+  background-color: #233D4D;
+}
+.headerNav #tagline p {
+  padding-top: 10px;
+  font-family: 'Lora';
+  color: #FEAC88;
+  font-size: 1.6rem;
 }
 .carousel-image {
   width: 100%;
   position: relative;
   margin: 1px 0;
 }
-img {
-  border: 0.5px solid #233D4D;
-}
-.slide-content {
-  display: flex;
-  padding: 5%;
-  background-color: #FCF9F4;
-  color: #FCF9F4;
-}
-.slide-content button {
+.carousel-image button {
   background-color: #FEAC88;
   color: #233D4D;
   font-family: 'Yeseva One', cursive;
@@ -258,18 +245,14 @@ img {
   cursor: pointer;
   position: absolute;
   width: 100%;
-  top: 25%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  align-items: center;
 }
-.slide-content p {
-  color: #233D4D;
-}
-@media (min-width: 992px) {
-  .slide-content p {
-    font-size: 1.6rem;
-  }
+img {
+  border: 0.5px solid #233D4D;
 }
 footer {
   background-color: #233D4D;

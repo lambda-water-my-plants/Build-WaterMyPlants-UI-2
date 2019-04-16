@@ -14,7 +14,8 @@
        opacity: .25;
        margin-top: 10px;
     }
-    h1 {
+    #pageHeader {
+        font-family: "Yeseva One", "cursive";
         opacity: 1;
         position: absolute;
         top: 10%;
@@ -25,19 +26,18 @@
         justify-content: center;
         align-items: center;
     }
-    .sign-in-button {
+    #tagline {
+        margin: 3px 0;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: @slate;
-        padding: 10px 0;
-       
-        a {
-            .button(@slate, @ivory, 3rem, 40px);
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            
+        p {
+            padding-top: 10px;
+            font-family: 'Lora';
+            color: @light-coral;
+            font-size: 1.6rem;
         }
         
     }
@@ -47,33 +47,21 @@
     width: 100%;
     position: relative;
     margin: 1px 0;
+    button {
+        .button(@light-coral, @slate, 3rem, 100px);
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        align-items: center;
+    }
 }
 img {
     border: .5px solid @slate;
 }
 
-
-.slide-content {
-    display: flex;
-    padding: 5%;
-    background-color: @ivory;
-    color: @ivory;
-    button {
-        .button(@light-coral, @slate, 3rem, 100px);
-        position: absolute;
-        width: 100%;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-    }
-    p {
-        color: @slate;
-        @media@desktop {
-            font-size: 1.6rem;
-        }
-    }
-}
 
 
 footer {
@@ -82,13 +70,18 @@ footer {
     margin: 10px 0;
     padding: 5px 1.5rem 5px 1.5rem;
     display: flex;
-    justify-content: display;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     p {
         font-size: 1rem;
         margin: 1px 4px;
     }
     .attribution-tags {
-        margin: 1px 0 4px 0;
+        margin: 1px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
     }
 }
