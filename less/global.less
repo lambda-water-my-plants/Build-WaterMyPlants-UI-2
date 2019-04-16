@@ -1,4 +1,4 @@
-// General Styles
+
 * {
     box-sizing: border-box;
   }
@@ -11,8 +11,8 @@
     font-family: 'Lora', serif;
     color: @slate;
     background-color: @ivory;
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
   }
   
   h1, h2, h3, h4, h5 {
@@ -22,7 +22,12 @@
   h1 {
       font-size: 4rem;
       padding: 20px;
-
+      @media@desktop {
+        font-size: 5rem;
+      }
+      @media@desktop {
+        font-size: 7rem;
+    }
   }
   
   h2 {
@@ -34,10 +39,15 @@
   }
   
   p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     line-height: 1.4;
   }
-  
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
   .container {
     min-width: 350px;
     width: 100%;
