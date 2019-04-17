@@ -1,4 +1,4 @@
-// General Styles
+
 * {
     box-sizing: border-box;
   }
@@ -11,18 +11,23 @@
     font-family: 'Lora', serif;
     color: @slate;
     background-color: @ivory;
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
   }
   
   h1, h2, h3, h4, h5 {
     font-family: 'Yeseva One', cursive;
     color: @slate;
   }
-  h1 {
+  #pageHeader {
       font-size: 4rem;
       padding: 20px;
-
+      @media@tablet {
+        font-size: 6rem;
+      }
+      @media@desktop {
+        font-size: 8rem;
+    }
   }
   
   h2 {
@@ -34,10 +39,15 @@
   }
   
   p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     line-height: 1.4;
   }
-  
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
   .container {
     min-width: 350px;
     width: 100%;
