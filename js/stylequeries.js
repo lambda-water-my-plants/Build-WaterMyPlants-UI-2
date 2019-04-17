@@ -23,9 +23,10 @@ title.forEach(function(title) {
     title.style.fontSize = "2rem";
 });
 
-const intro = document.querySelector('.about-intro');
+const intro = document.querySelector('#top-intro');
 intro.style.fontFamily = "Yeseva One";
 intro.style.color = "#FCF9F4";
+intro.style.fontSize = "2rem";
 
 const introparagraph = document.querySelector('.about-paragraph');
 introparagraph.style.fontFamily = "Lora";

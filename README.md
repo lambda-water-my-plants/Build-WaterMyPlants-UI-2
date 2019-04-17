@@ -35,7 +35,6 @@ Below are the respective .html, .less, and .js files:
 ### Landing Page
 
 * index.html
-* landing-page.less
 * stylequeries.js
 
 ### About Us
