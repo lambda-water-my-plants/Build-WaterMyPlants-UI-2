@@ -179,17 +179,6 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-button {
-  background-color: #A1C181;
-  color: #233D4D;
-  font-family: 'Yeseva One', cursive;
-  font-size: 2rem;
-  height: 100px;
-  width: 200px;
-  border: 0.5px solid #A1C181;
-  opacity: 0.75;
-  cursor: pointer;
-}
 .container-fluid {
   display: flex;
   flex-direction: column;
@@ -230,6 +219,26 @@ button {
   color: #FEAC88;
   font-size: 1.6rem;
 }
+footer {
+  background-color: #233D4D;
+  color: #FCF9F4;
+  margin: 10px 0;
+  padding: 5px 1.5rem 5px 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer p {
+  font-size: 1rem;
+  margin: 1px 4px;
+}
+footer .attribution-tags {
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 .carousel-image {
   width: 100%;
   position: relative;
@@ -254,18 +263,6 @@ button {
 img {
   border: 0.5px solid #233D4D;
 }
-footer {
-  background-color: #233D4D;
-  color: #FCF9F4;
-  margin: 10px 0;
-  padding: 5px 1.5rem 5px 1.5rem;
-  display: flex;
-  justify-content: display;
-}
-footer p {
-  font-size: 1rem;
-  margin: 1px 4px;
-}
-footer .attribution-tags {
-  margin: 1px 0 4px 0;
+.about-intro {
+  font-family: "Yeseva One";
 }
