@@ -21,4 +21,25 @@ title.forEach(function(title) {
     title.style.fontFamily = "Yeseva One";
     title.style.color = "#233D4D";
     title.style.fontSize = "2rem";
-})
+});
+
+const intro = document.querySelector('.about-intro');
+intro.style.fontFamily = "Yeseva One";
+intro.style.color = "#FCF9F4";
+
+const introparagraph = document.querySelector('.about-paragraph');
+introparagraph.style.fontFamily = "Lora";
+introparagraph.style.color = "#FCF9F4";
+
+const bio = document.querySelectorAll('.bio');
+bio.forEach(function(bio) {
+    bio.style.fontFamily = "Lora";
+    bio.style.color = "#233D4D";
+});
+
+const name = document.querySelectorAll('.name');
+name.forEach(function(name) {
+    name.style.fontFamily = "Yeseva One";
+    name.style.color = "#233D4D";
+});
+
