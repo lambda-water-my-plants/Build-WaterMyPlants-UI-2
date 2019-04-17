@@ -1,3 +1,65 @@
-.about-intro {
-    font-family: "Yeseva One";
+//about page
+.container-fluid {
+    background-color: @ivory;
 }
+
+.introheader {
+    background-color: @slate;
+    width: 100%;
+    height: auto;
+    margin: 2px 0;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    .about-intro {
+        margin: 5px 2rem;
+        padding: 2px;
+    }
+    .top-intro {
+        margin-top: 5px;
+    }
+    .about-btn {
+        background-color: @light-coral;
+        font-family: "Yeseva One";
+        font-size: 14px;
+        align-self: center;
+        color: @slate;
+        margin: 5px 2rem;
+        padding: 6px 12px;
+        border-radius: 4px;
+        border: 1px solid transparent;
+
+    }
+}
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+    img {
+        margin: 5px 10px 5px 5px;
+        width: 150px;
+        height: auto;
+        border: 1px solid @slate;
+    }
+    .bioblock {
+        padding: 2px;
+        margin: 2px;
+        .name {
+            padding-top: 0;
+            margin-top: 0;
+            font-size: 1.8rem;
+            @media@tablet {
+                font-size: 2.4rem;
+            }
+            @media@desktop {
+                font-size: 4rem;
+            }
+        }
+        p {
+            @media@desktop {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+

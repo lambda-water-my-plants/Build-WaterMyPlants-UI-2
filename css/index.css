@@ -224,13 +224,10 @@ footer {
   color: #FCF9F4;
   margin: 10px 0;
   padding: 5px 1.5rem 5px 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 footer p {
   font-size: 1rem;
-  margin: 1px 4px;
+  margin: 2px;
 }
 footer .attribution-tags {
   margin: 1px;
@@ -263,6 +260,67 @@ footer .attribution-tags {
 img {
   border: 0.5px solid #233D4D;
 }
-.about-intro {
+.container-fluid {
+  background-color: #FCF9F4;
+}
+.introheader {
+  background-color: #233D4D;
+  width: 100%;
+  height: auto;
+  margin: 2px 0;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.introheader .about-intro {
+  margin: 5px 2rem;
+  padding: 2px;
+}
+.introheader .top-intro {
+  margin-top: 5px;
+}
+.introheader .about-btn {
+  background-color: #FEAC88;
   font-family: "Yeseva One";
+  font-size: 14px;
+  align-self: center;
+  color: #233D4D;
+  margin: 5px 2rem;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+.bio {
+  display: flex;
+  justify-content: space-between;
+}
+.bio img {
+  margin: 5px 10px 5px 5px;
+  width: 150px;
+  height: auto;
+  border: 1px solid #233D4D;
+}
+.bio .bioblock {
+  padding: 2px;
+  margin: 2px;
+}
+.bio .bioblock .name {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+  .bio .bioblock .name {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 992px) {
+  .bio .bioblock .name {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .bio .bioblock p {
+    font-size: 1.6rem;
+  }
 }
