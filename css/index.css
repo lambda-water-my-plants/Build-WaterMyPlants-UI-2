@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Lora', serif;
+  color: #233D4D;
+  background-color: #FCF9F4;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Yeseva One', cursive;
+  color: #233D4D;
+}
+#pageHeader {
+  font-size: 4rem;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  #pageHeader {
+    font-size: 6rem;
+  }
+}
+@media (min-width: 992px) {
+  #pageHeader {
+    font-size: 8rem;
+  }
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  min-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2%;
+}
+.headerNav {
+  background-color: #FCF9F4;
+  justify-content: space-between;
+  position: relative;
+}
+.headerNav .headerImage {
+  opacity: 0.25;
+  margin-top: 10px;
+}
+.headerNav #pageHeader {
+  font-family: "Yeseva One", "cursive";
+  opacity: 1;
+  position: absolute;
+  top: 10%;
+  color: #233D4D;
+  margin: 1px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerNav #tagline {
+  margin: 3px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #233D4D;
+}
+.headerNav #tagline p {
+  padding-top: 10px;
+  font-family: 'Lora';
+  color: #FEAC88;
+  font-size: 1.6rem;
+}
+footer {
+  background-color: #233D4D;
+  color: #FCF9F4;
+  margin: 10px 0;
+  padding: 5px 1.5rem 5px 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer p {
+  font-size: 1rem;
+  margin: 1px 4px;
+}
+footer .attribution-tags {
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel-image {
+  width: 100%;
+  position: relative;
+  margin: 1px 0;
+}
+.carousel-image button {
+  background-color: #FEAC88;
+  color: #233D4D;
+  font-family: 'Yeseva One', cursive;
+  font-size: 3rem;
+  height: 100px;
+  border: 0.5px solid #FCF9F4;
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  align-items: center;
+}
+img {
+  border: 0.5px solid #233D4D;
+}
+.about-intro {
+  font-family: "Yeseva One";
+}
