@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Water My Plants
 
 ## The following descriptions will aid you in installing, contributing to, and/or running this project.
@@ -42,4 +43,9 @@ Below are the respective .html, .less, and .js files:
 ### About Us
 
 * about-us.html
+<<<<<<< HEAD
 * about.less
+=======
+* about.less
+=======
+>>>>>>> master
