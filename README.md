@@ -43,4 +43,3 @@ Below are the respective .html, .less, and .js files:
 
 * about-us.html
 * about.less
-
