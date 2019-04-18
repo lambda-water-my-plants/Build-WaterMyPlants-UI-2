@@ -33,17 +33,20 @@
           font-size: 8rem;
           }
     }
-    #tagline {
+    .tagline {
         margin: 3px 0;
         width: 100%;
+        height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: @slate;
-        padding-top: 10px;
-        font-family: 'Lora';
-        color: @light-coral;
-        font-size: 1.4rem;
+        p {
+            padding: 5px;
+            font-family: 'Lora';
+            color: @light-coral;
+            font-size: 1.4rem;
+        }
     }
 }
    
@@ -58,12 +61,13 @@ footer {
     p {
         font-size: .7rem;
         margin: 2px;
+        color: @soft-teal;
     }
     .attribution-tags {
         margin: 1px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }

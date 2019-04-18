@@ -203,14 +203,17 @@ img {
     font-size: 8rem;
   }
 }
-.headerNav #tagline {
+.headerNav .tagline {
   margin: 3px 0;
   width: 100%;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #233D4D;
-  padding-top: 10px;
+}
+.headerNav .tagline p {
+  padding: 5px;
   font-family: 'Lora';
   color: #FEAC88;
   font-size: 1.4rem;
@@ -224,13 +227,14 @@ footer {
 footer p {
   font-size: 0.7rem;
   margin: 2px;
+  color: #579C87;
 }
 footer .attribution-tags {
   margin: 1px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .panel {
   background-color: #FCF9F4;
@@ -309,48 +313,39 @@ footer .attribution-tags {
   color: #233D4D;
   padding: 4px;
   background-color: #FCF9F4;
+  display: block;
 }
 @media (min-width: 992px) {
   .content {
     font-size: 1.6rem;
   }
 }
-.bio {
-  display: flex;
-  justify-content: space-between;
+.bioblock {
+  border-bottom: 1.5px solid #FEAC88;
 }
-.bio img {
-  margin: 5px 10px 5px 5px;
-  width: 150px;
-  height: auto;
-  border: 1px solid #233D4D;
-}
-.bio .bioblock {
-  padding: 2px;
-  margin: 2px;
-}
-.bio .bioblock .name {
+.bioblock .name {
   font-family: "Yeseva One";
   padding-top: 0;
   margin-top: 0;
   font-size: 1.8rem;
 }
 @media (min-width: 768px) {
-  .bio .bioblock .name {
+  .bioblock .name {
     font-size: 2.4rem;
   }
 }
 @media (min-width: 992px) {
-  .bio .bioblock .name {
+  .bioblock .name {
     font-size: 4rem;
   }
 }
-.bio .bioblock p {
+p {
   font-family: "Lora";
   color: #233D4D;
+  padding-bottom: 4px;
 }
 @media (min-width: 992px) {
-  .bio .bioblock p {
+  p {
     font-size: 1.6rem;
   }
 }
@@ -368,9 +363,38 @@ footer .attribution-tags {
   margin: 4px 0;
 }
 .content {
-  display: none;
   flex-wrap: wrap;
 }
-.change {
+.bio {
+  display: flex;
+  justify-content: space-between;
+}
+.bio img {
+  margin: 5px 10px 5px 5px;
+  width: 150px;
+  height: auto;
+  border: 1px solid #233D4D;
+}
+.bio .textbox {
+  display: block;
+  width: 100%;
+}
+.bio .bioblock {
+  padding: 2px;
+  margin: 2px;
+  width: 100%;
+  flex-direction: column;
+}
+.bio .bioblock .name {
+  width: 100%;
+}
+.bio .biotext {
+  padding: 2px;
+  margin: 2px;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.bio .change {
   display: block;
 }
