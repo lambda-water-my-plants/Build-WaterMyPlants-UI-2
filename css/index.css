@@ -232,25 +232,29 @@ footer .attribution-tags {
   align-items: center;
   justify-content: space-between;
 }
-.title-style {
+.panel {
   background-color: #FCF9F4;
 }
-.title-style .title {
+.panel .title-style {
+  background-color: #FCF9F4;
+}
+.panel .title {
   font-size: 1.4rem;
   font-family: "Yeseva One";
   color: #233D4D;
+  padding: 4px;
 }
 @media (min-width: 768px) {
-  .title-style .title {
+  .panel .title {
     font-size: 2rem;
   }
 }
 @media (min-width: 992px) {
-  .title-style .title {
+  .panel .title {
     font-size: 3rem;
   }
 }
-.title-style .anchorbutton {
+.panel .anchorbutton {
   font-family: "Yeseva One";
   font-size: 1rem;
   background-color: #FEAC88;
@@ -260,6 +264,8 @@ footer .attribution-tags {
   font-family: "Lora";
   font-size: 1.2rem;
   color: #233D4D;
+  padding: 4px;
+  background-color: #FCF9F4;
 }
 @media (min-width: 992px) {
   .content {
@@ -268,6 +274,46 @@ footer .attribution-tags {
 }
 .container-fluid {
   background-color: #FCF9F4;
+}
+.panel {
+  background-color: #FCF9F4;
+}
+.panel .title-style {
+  background-color: #FCF9F4;
+}
+.panel .title {
+  font-size: 1.4rem;
+  font-family: "Yeseva One";
+  color: #233D4D;
+  padding: 4px;
+}
+@media (min-width: 768px) {
+  .panel .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .panel .title {
+    font-size: 3rem;
+  }
+}
+.panel .anchorbutton {
+  font-family: "Yeseva One";
+  font-size: 1rem;
+  background-color: #FEAC88;
+  color: #233D4D;
+}
+.content {
+  font-family: "Lora";
+  font-size: 1.2rem;
+  color: #233D4D;
+  padding: 4px;
+  background-color: #FCF9F4;
+}
+@media (min-width: 992px) {
+  .content {
+    font-size: 1.6rem;
+  }
 }
 .bio {
   display: flex;
@@ -309,7 +355,6 @@ footer .attribution-tags {
   }
 }
 .title-tabs {
-  margin: 2px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -320,7 +365,7 @@ footer .attribution-tags {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid transparent;
+  margin: 4px 0;
 }
 .content {
   display: none;

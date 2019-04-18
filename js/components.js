@@ -21,6 +21,9 @@ class Content {
 }
 
 const titles = document.querySelectorAll(".title");
+console.log(titles);
 titles.forEach(function(title) {
     return new Title(title);
 });
+
+console.log(Title);
