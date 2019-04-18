@@ -15,10 +15,47 @@
 }
 
 .content {
-    display: none;
+   // display: none;
     flex-wrap: wrap;
 }
 
-.change {
-    display: block;
+// .change {
+//     display: block;
+// }
+
+
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+    img {
+        margin: 5px 10px 5px 5px;
+        width: 150px;
+        height: auto;
+        border: 1px solid @slate;
+    }
+    .textbox {
+        display: block;
+        width: 100%;
+    }
+    .bioblock {
+        padding: 2px;
+        margin: 2px;
+        width: 100%;
+        flex-direction: column;
+        .name {
+            width: 100%;
+        }
+    }
+    .biotext {
+        padding: 2px;
+        margin: 2px;
+        width: 100%;
+        height: auto;
+        display: none;
+        
+    }
+    .change {
+        display: block;
+    }
 }

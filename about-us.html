@@ -22,8 +22,8 @@
                 <img class="headerImage" src="imgs/header-annie-sprat.png" alt="image of rosette-shaped succulents">
                 <h1 id="pageHeader">water my plants</h1>
             </div>
-                <div id="tagline">
-                <p>We remember so you don't have to.</p>
+                <div class="tagline">
+                <p class="tagline">We remember so you don't have to.</p>
             </div>
             <img src="imgs/narrowhead.png" alt="narrow collage of plant images">
         </div>
@@ -31,7 +31,7 @@
         <div class="bios">
             <section class="panel">
                 <div class="title-tabs title-style">
-                    <a href="#" class="title" data-tab="3">Click to learn more</a>
+                    <a href="#" class="title" data-tab="3">About Us</a>
                     <a href="index.html" class="anchorbutton">Home</a>
                 </div>  
                 <div class="content" data-tab="3">
@@ -43,56 +43,78 @@
                 <div>
                     <img src="imgs/parra.jpg" alt="headshot of Daniela Parra">
                 </div>
-                <div class="bioblock">
-                    <h3 class="name">Daniela Parra</h3>
-                    <p>TEAM LEAD</p>
-                    <p>Designer turned iOS developer. Experienced with Swift, Objective-C, Photoshop, Premiere, Illustrator and design thinking. Fascinated with building iOS applications that delight users, help shape human behaviors and feel intuitive and easy to use.</p>
-                </div>     
+                <section class="textbox">
+                    <div class="bioblock" data-tab="1">
+                        <h3 class="name">Daniela Parra</h3>
+                        <p>TEAM LEAD (click to learn more)</p>
+                    </div> 
+                    <div class="biotext" data-tab="1">    
+                        <p>Designer turned iOS developer. Experienced with Swift, Objective-C, Photoshop, Premiere, Illustrator and design thinking. Fascinated with building iOS applications that delight users, help shape human behaviors and feel intuitive and easy to use.</p>
+                    </div>    
+                </section>
             </section>
 
             <section class="bio">
                 <div>
                     <img src="imgs/ortiz.jpg" alt="photo of Oscar Ortiz with computer in the background">
                 </div>
-                <div class="bioblock">
-                    <h3 class="name">Oscar Ortiz</h3>
-                    <p>FRONT END DEVELOPER</p>
-                    <p>Hello everyone, I’m Oscar the FE Developer! I love to learn new things and build useful stuff! When I’m not on the screen I’m training Jiu Jitsu!</p>
-                </div>
+                <section class="textbox">
+                    <div class="bioblock" data-tab="2">
+                        <h3 class="name">Oscar Ortiz</h3>
+                        <p>FRONT END DEVELOPER (click to learn more)</p>
+                    </div>
+                    <div class="biotext" data-tab="2">
+                        <p>Hello everyone, I’m Oscar the FE Developer! I love to learn new things and build useful stuff! When I’m not on the screen I’m training Jiu Jitsu!</p>
+                    </div>
+                </section>            
             </section>
 
             <section class="bio">
                 <div>
                     <img src="imgs/Hussan.png" alt="headshot of Kawsar Hussen">
                 </div>
-                <div class="bioblock">
-                    <h3 class="name">Md Kawsar Hussen</h3>
-                    <p>BACKEND DEVELOPER</p>
-                    <p>Full Stack Web Developer, Skilled in HTML, Javascript, React, Node.js, Redux, CSS, Data Structures, Algorithm, Mathematics, Physics, Microsoft office, Android development, IOS development, Java, Strong operations professional with a Associate’s Degree focused in Computer Science.</p>
-                </div>
-                
+                <section class="textbox">
+                    <div class="bioblock" data-tab="3">
+                        <h3 class="name">Md Kawsar Hussen</h3>
+                        <p>BACKEND DEVELOPER (click to learn more)</p>
+                    </div>
+                    <div class="biotext" data-tab="3">
+                        <p>Full Stack Web Developer, Skilled in HTML, Javascript, React, Node.js, Redux, CSS, Data Structures, Algorithm, Mathematics, Physics, Microsoft office, Android development, IOS development, Java, Strong operations professional with a Associate’s Degree focused in Computer Science.</p>
+                    </div>   
+                </section>
             </section>
 
             <section class="bio">
                 <div>
                     <img src="imgs/wood.png" alt="headshot of Leslee Wood">
                 </div>
-                <div class="bioblock">
-                    <h3 class="name">Leslee Wood</h3>
-                    <p>USER INTERFACE DEVELOPER</p>
-                    <p>A print and digital media graphic designer for over 10 years and now a student in Lambda School's Full Stack Web Developer program. Wood also has undergraduate and master's degrees in musicology and music composition and remains an active performer and composer.</p>
-                </div>
-            </section>
+
+                <section class="textbox">
+                    <div class="bioblock" data-tab="4">
+                        <h3 class="name">Leslee Wood</h3>
+                        <p>USER INTERFACE DEVELOPER (click to learn more)</p>
+                    </div>
+                    <div class="biotext" data-tab="4">
+                        <p>A print and digital media graphic designer for over 10 years and now a student in Lambda School's Full Stack Web Developer program. Wood also has undergraduate and master's degrees in musicology and music composition and remains an active performer and composer.</p>
+                    </div>
+                </section>
+            </section>    
+
+        
 
             <section class="bio">
                 <div>
                     <img src="" alt="">
                 </div>
-                <div class="bioblock">
-                    <h3 class="name">Josh Cooter</h3>
-                    <p>USER INTERFACE DEVELOPER</p>
-                    <p>a couple sentences about this person.</p>
-                </div>
+                <section class="textbox">
+                    <div class="bioblock" data-tab="5">
+                        <h3 class="name">Josh Cooter</h3>
+                        <p>USER INTERFACE DEVELOPER (click to learn more)</p>
+                    </div>
+                    <div class="biotext" data-tab="5">
+                        <p>a couple sentences about this person.</p>
+                    </div>
+                </section>
             </section>
 
         </div>
@@ -115,6 +137,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/components.js"></script>
+    <script src="js/biotabs.js"></script>
     
     </body>
 </html>

@@ -33,42 +33,37 @@
     color: @slate;
     padding: 4px;
     background-color: @ivory;
+    display: block;
     @media@desktop {
         font-size: 1.6rem;
     }
 }
 
-.bio {
-    display: flex;
-    justify-content: space-between;
-    img {
-        margin: 5px 10px 5px 5px;
-        width: 150px;
-        height: auto;
-        border: 1px solid @slate;
-    }
-    .bioblock {
-        padding: 2px;
-        margin: 2px;
-        .name {
-            font-family: "Yeseva One";
-            padding-top: 0;
-            margin-top: 0;
-            font-size: 1.8rem;
-            @media@tablet {
-                font-size: 2.4rem;
-            }
-            @media@desktop {
-                font-size: 4rem;
-            }
+.bioblock {
+    border-bottom: 1.5px solid @light-coral;
+    .name {
+        font-family: "Yeseva One";
+        padding-top: 0;
+        margin-top: 0;
+        font-size: 1.8rem;
+        @media@tablet {
+            font-size: 2.4rem;
         }
-        p {
-            font-family: "Lora";
-            color: @slate;
-            @media@desktop {
-                font-size: 1.6rem;
-            }
+        @media@desktop {
+            font-size: 4rem;
         }
     }
 }
+
+p {
+    font-family: "Lora";
+    color: @slate;
+    padding-bottom: 4px;
+    // border-bottom: 1.5px solid @light-coral;
+    @media@desktop {
+        font-size: 1.6rem;
+    }
+
+}
+
 
