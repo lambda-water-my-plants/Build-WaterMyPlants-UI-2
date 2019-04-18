@@ -31,13 +31,16 @@ Below are the respective .html, .less, and .js files:
 * global.less
 * variables.less
 * mixins.less
+* components.less
+* components.js
 
 ### Landing Page
 
 * index.html
-* stylequeries.js
+* landing-page.less
 
 ### About Us
 
 * about-us.html
 * about.less
+
